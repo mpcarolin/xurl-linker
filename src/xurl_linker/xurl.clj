@@ -42,7 +42,7 @@
   "Executes the x-callback-url via the commandline."
   [url]
   (sh xcall-path "-url" url))
-(xcall "bear://x-callback-url/create?title=Work%20dammit&")
+
 (defn call
   "Calls the x-url-callback defined by scheme, host, action, and params.
    On x-error, call will throw an exception, with :type :x-error in the ex-info map.
