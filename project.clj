@@ -4,7 +4,8 @@
   :license {:name "MIT License"
             :url "https://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [org.clojure/data.json "0.2.6"]]
+                 [org.clojure/data.json "0.2.6"]
+                 [fn-fx/fn-fx-openjfx11 "0.5.0-SNAPSHOT"]]
   :main xurl-linker.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
